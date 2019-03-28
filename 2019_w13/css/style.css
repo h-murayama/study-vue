@@ -1,0 +1,20 @@
+
+
+body{
+    background-image:url(../images/key.jpg);
+    background-size:cover;
+    color:#ccc;
+    position:relative;
+}
+
+textarea{
+    width:500px;
+    height:40px;
+    font-size:16px;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    right:0;
+    color:#000;
+}
