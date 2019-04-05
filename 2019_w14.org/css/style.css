@@ -3,7 +3,6 @@
 body{
     background-image:url(../images/key.jpg);
     background-size:cover;
-    color:#ccc;
     position:relative;
 }
 .main{
@@ -12,6 +11,16 @@ body{
 }
 h2{
     text-align:center;
+}
+.popupBtn{
+    font-size:20px;
+    background-color:#fff;
+    border-radius:10px;
+    border:solid 1px;
+    width:10em;
+    margin:0 auto;
+    text-align:center;
+    cursor:pointer;
 }
 
 textarea{

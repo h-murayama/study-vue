@@ -10,20 +10,21 @@
 </head>
 <body>
 
-<h2>お悩み相談室</h2>
-<h3>相談方法</h3>
-<p>
-ダイエット中・・・でも今日くらい炭水化物食べていいかな？？など、<br />
-最近やるべきか否か、悩んでることを聞いてみて！<br />
-Yes or Noの二択で答えてくれるよ！
-</p>
-
-<div id="watch-example">
-    <div>
-        <textarea v-model="question" placeholder="ここに悩みを入力してね"></textarea>
+<div class="main">
+    <h2>お悩み相談室</h2>
+    <h3>相談方法</h3>
+    <p>
+    ダイエット中・・・でも今日くらい炭水化物食べていいかな？？など、<br />
+    最近やるべきか否か、悩んでることを聞いてみて！<br />
+    Yes or Noの二択で答えてくれるよ！
+    </p>
+    <div id="watch-example">
+        <div>
+            <textarea v-model="question" placeholder="ここに悩みを入力してね"></textarea>
+        </div>
+        <p>{{ answer }}</p>
+        <img v-bind:src="answerImage">
     </div>
-    <p>{{ answer }}</p>
-    <img v-bind:src="answerImage">
 </div>
 
 <footer>
