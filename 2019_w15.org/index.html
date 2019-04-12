@@ -1,0 +1,35 @@
+<html lang=ja">
+<head>
+<title>Vue motion</title>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div id="app">
+    	<transition>
+            <span v-show:"isShow" class="mv-1">A</span>
+    	</transition>
+    	<transition>
+            <span v-show:"isShow" class="mv-1">A</span>
+    	</transition>
+
+
+        <div class="outer">
+            <div v-scroll="scrollFadeIn" class="fade" data-id="toUp">
+                <p>これは下からふわっと</p>
+            </div>
+            <div v-scroll="scrollFadeIn" class="fade" data-id="toLeft">
+                <p>これは右から左にふわっと</p>
+            </div>
+            <div v-scroll="scrollFadeIn" class="fade" data-id="toUp">
+                <p>これは下からふわっと</p>
+            </div>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
